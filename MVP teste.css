@@ -3,6 +3,28 @@
     justify-content: center;
 }
 
+.Topo{
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.FotoTopo{
+    height: 26.25px;
+    width:26.25px ;
+    border-radius: 50%;
+}
+.SimboloTopo{
+    width: 22.5px;
+    height: 22.5px;
+}
+
+.TituloTopo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .Limite{
     width: 500px;
 }
@@ -62,6 +84,20 @@
     font-size: 15px;
 }
 
+.Imagem{
+    border-radius: 5%;
+    background-color: #657786;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 300px;
+    width: 100%;
+}
+
+.LinhaEntrePost{
+    color: rgba(0,0,0,);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 .FlexLinhaPost{
     display: flex;
@@ -91,14 +127,12 @@
 
 .Espacado{
     display: flex;
-    align-content: space-between;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .Simbolo{
     height: 18.75px;
     width: 18.75px;
-    margin-right: 10px;
 }
 
 .Quantidade{
