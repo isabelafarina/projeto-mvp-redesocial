@@ -7,7 +7,6 @@
     width: 500px;
 }
 
-
 .DadosUsuarioFlex{
     display: flex;
     flex-direction: row;
@@ -47,13 +46,13 @@
     margin-right: 5px;
 }
 
-.TempoPostagem{
+.TempoPost{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #657786;
     font-size: 15px;
     flex-grow: 1;
 }
-.TempoPostagem:hover{
+.TempoPost:hover{
     text-decoration: underline;
 }
 
@@ -63,11 +62,16 @@
     font-size: 15px;
 }
 
+
+.FlexLinhaPost{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .FlexLinha{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .FlexColuna{
@@ -83,4 +87,23 @@
 }
 .Link:hover{
     text-decoration: underline;
+}
+
+.Espacado{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.Simbolo{
+    height: 18.75px;
+    width: 18.75px;
+    margin-right: 10px;
+}
+
+.Quantidade{
+    color:#657786;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
 }
