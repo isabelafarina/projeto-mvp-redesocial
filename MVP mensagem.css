@@ -33,3 +33,50 @@
     display: flex;
     flex-direction: column;
 }
+
+.FlexLinhaConversa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.FotoPerfil{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: #657786;
+}
+
+.DadosConversaFlex{
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.NomeUsuario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171a;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.ContaUsuario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #657786;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.TempoConversa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #657786;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
