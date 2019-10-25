@@ -133,12 +133,6 @@
     margin-top: 10px;
 }
 
-.Menu{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
-
 .Simbolo{
     height: 18.75px;
     width: 18.75px;
