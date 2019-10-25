@@ -1,0 +1,35 @@
+.Topo{
+    position: fixed;
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.FotoTopo{
+    height: 26.25px;
+    width:26.25px ;
+    border-radius: 50%;
+}
+.TituloTopo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.SimboloTopo{
+    width: 22.5px;
+    height: 22.5px;
+}
+
+.Simbolo{
+    height: 18.75px;
+    width: 18.75px;
+}
+
+.Limite{
+    width: 500px;
+}
+
+.FlexColuna{
+    display: flex;
+    flex-direction: column;
+}
